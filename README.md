@@ -1,0 +1,1 @@
+Followed # AngularFirebase Episode 59 - Angular Chatbot with Dialogflow tutorial to create this app.
