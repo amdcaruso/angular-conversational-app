@@ -1,6 +1,4 @@
-<h1>Number One Carmo e Sion Project</h1>
-
-
+<h1> Robots conversational app </h1>
 
 <ng-container *ngFor="let message of messages | async">
 
@@ -15,14 +13,8 @@
 <label for="nameField">Type your question below.</label>
 
 
-<input [(ngModel)]="formValue" (keyup.enter)="sendMessage()" type="text"><br>
+<input [(ngModel)]="formValue" (keyup.enter)="sendMessage()" type="text">
+<br>
 
 <button (click)="sendMessage()">Send</button>
-
-<p> Possible questions: </p>
-<p> Where are they from? </p>
-<p> How old are they? </p>
-<p> What are they like? </p>
-<p> What is their nickname? </p>
- 
 
