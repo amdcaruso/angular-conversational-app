@@ -9,6 +9,6 @@
   },
   "private": true,
   "devDependencies": {
-    "@angular/cli": "^1.6.7"
+    "@angular/cli": "^15.0.0"
   }
 }
